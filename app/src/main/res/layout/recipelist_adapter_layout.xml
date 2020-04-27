@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:background="@drawable/recipe_list">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:layout_height="90dp"
+        android:id="@+id/recipeImage"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Recipe Name"
+        android:textSize="18dp"
+        android:fontFamily="@font/custom_medium"
+        android:textColor="#F3F3F3"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:id="@+id/recipeNameField"/>
+
+            <TextView
+                android:layout_width="250dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:textSize="15dp"
+                android:textColor="#F3F3F3"
+                android:fontFamily="@font/custom_regular"
+                android:textFontWeight="500"
+                android:layout_height="wrap_content"
+                android:hint="Duration"
+                android:id="@+id/duration"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Tags"
+                android:fontFamily="@font/custom_regular"
+                android:paddingTop="5dp"
+                android:textSize="12dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/tags"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
